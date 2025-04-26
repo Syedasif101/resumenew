@@ -91,11 +91,10 @@ const ProjectsSection = () => {
           className="text-center mb-16"
           variants={fadeIn("up", "tween", 0.1, 1)}
         >
-          <h2 className="text-3xl md:text-4xl font-poppins font-bold relative inline-block mb-2">
-            My Projects
-            <span className="absolute bottom-0 left-0 w-full h-1 bg-accent opacity-70"></span>
+          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-4">
+            My <span className="gradient-text">Projects</span>
           </h2>
-          <p className="text-textSecondary mt-4 max-w-2xl mx-auto">Here are some of my recent works</p>
+          <p className="text-textSecondary mt-4 max-w-2xl mx-auto text-lg">Here are some of my recent works</p>
         </motion.div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

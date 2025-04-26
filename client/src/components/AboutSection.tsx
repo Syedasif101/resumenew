@@ -16,11 +16,10 @@ const AboutSection = () => {
           className="text-center mb-16"
           variants={fadeIn("up", "tween", 0.1, 1)}
         >
-          <h2 className="text-3xl md:text-4xl font-poppins font-bold relative inline-block mb-2">
-            About Me
-            <span className="absolute bottom-0 left-0 w-full h-1 bg-accent opacity-70"></span>
+          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-4">
+            About <span className="gradient-text">Me</span>
           </h2>
-          <p className="text-textSecondary mt-4 max-w-2xl mx-auto">Get to know more about me and my journey</p>
+          <p className="text-textSecondary mt-4 max-w-2xl mx-auto text-lg">Get to know more about me and my journey</p>
         </motion.div>
         
         <div className="flex flex-col md:flex-row items-center gap-10">

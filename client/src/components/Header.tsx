@@ -36,15 +36,15 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed w-full z-50 py-4 px-4 md:px-8 transition-all duration-300 ${
-        scrolled ? "bg-background/90 backdrop-blur-sm shadow-md" : "bg-transparent"
+      className={`fixed w-full z-50 py-6 px-4 md:px-8 transition-all duration-300 ${
+        scrolled ? "bg-background/95 backdrop-blur-md shadow-lg" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto flex justify-between items-center">
         <div>
-          <h1 className="text-2xl font-poppins font-bold">
+          <h1 className="text-2xl md:text-3xl font-poppins font-bold">
             <a href="#home" className="gradient-text">
-              My Portfolio
+              Reyaz.
             </a>
           </h1>
         </div>
@@ -54,7 +54,7 @@ const Header = () => {
             <a
               key={item.href}
               href={item.href}
-              className={`nav-item font-poppins text-textPrimary hover:text-accent transition-colors ${
+              className={`nav-item font-poppins text-textPrimary hover:text-accent transition-colors text-[15px] ${
                 activeSection === item.href.substring(1) ? "active" : ""
               }`}
             >

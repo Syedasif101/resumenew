@@ -93,11 +93,10 @@ const ExperienceSection = () => {
           className="text-center mb-16"
           variants={fadeIn("up", "tween", 0.1, 1)}
         >
-          <h2 className="text-3xl md:text-4xl font-poppins font-bold relative inline-block mb-2">
-            My Experience
-            <span className="absolute bottom-0 left-0 w-full h-1 bg-accent opacity-70"></span>
+          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-4">
+            My <span className="gradient-text">Experience</span>
           </h2>
-          <p className="text-textSecondary mt-4 max-w-2xl mx-auto">My professional journey so far</p>
+          <p className="text-textSecondary mt-4 max-w-2xl mx-auto text-lg">My professional journey so far</p>
         </motion.div>
         
         <div className="relative">
