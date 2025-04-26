@@ -22,62 +22,59 @@ const AboutSection = () => {
           <p className="text-textSecondary mt-4 max-w-2xl mx-auto text-lg">Get to know more about me and my journey</p>
         </motion.div>
         
-        <div className="flex flex-col md:flex-row items-center gap-10">
-          <motion.div 
-            className="md:w-1/2"
-            variants={fadeIn("right", "tween", 0.2, 1)}
+        <div className="max-w-4xl mx-auto">
+          <motion.div
+            className="mb-12 text-center"
+            variants={fadeIn("up", "tween", 0.2, 1)}
           >
-            <div className="rounded-lg overflow-hidden shadow-xl">
-              <img 
-                src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
-                alt="Abstract code background" 
-                className="w-full h-auto"
-              />
+            <p className="text-textSecondary text-xl leading-relaxed mb-8">
+              I'm a passionate <span className="text-accent font-medium">Full Stack Developer</span> with over 5 years of experience designing and building responsive web applications. My journey into web development started during my university years, and I've been deeply immersed in creating digital solutions ever since.
+            </p>
+            <p className="text-textSecondary text-xl leading-relaxed">
+              My approach to development combines technical expertise with creative problem-solving. I specialize in JavaScript technologies and modern frameworks like <span className="text-accent font-medium">React</span>, <span className="text-accent font-medium">Next.js</span>, and <span className="text-accent font-medium">Node.js</span>, with a strong emphasis on writing clean, maintainable code.
+            </p>
+          </motion.div>
+          
+          <motion.div
+            className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12"
+            variants={fadeIn("up", "tween", 0.3, 1)}
+          >
+            <div className="bg-cardBg p-6 rounded-xl shadow-lg border border-gray-800 hover:border-accent/30 transition-all">
+              <h4 className="font-poppins font-semibold mb-3 flex items-center text-lg">
+                <FaUserGraduate className="text-accent mr-3 text-xl" />Education
+              </h4>
+              <p className="text-textSecondary">Master's in Computer Science</p>
+            </div>
+            
+            <div className="bg-cardBg p-6 rounded-xl shadow-lg border border-gray-800 hover:border-accent/30 transition-all">
+              <h4 className="font-poppins font-semibold mb-3 flex items-center text-lg">
+                <FaMapMarkerAlt className="text-accent mr-3 text-xl" />Location
+              </h4>
+              <p className="text-textSecondary">San Francisco, CA</p>
+            </div>
+            
+            <div className="bg-cardBg p-6 rounded-xl shadow-lg border border-gray-800 hover:border-accent/30 transition-all">
+              <h4 className="font-poppins font-semibold mb-3 flex items-center text-lg">
+                <FaLaptopCode className="text-accent mr-3 text-xl" />Experience
+              </h4>
+              <p className="text-textSecondary">5+ Years</p>
+            </div>
+            
+            <div className="bg-cardBg p-6 rounded-xl shadow-lg border border-gray-800 hover:border-accent/30 transition-all">
+              <h4 className="font-poppins font-semibold mb-3 flex items-center text-lg">
+                <FaBriefcase className="text-accent mr-3 text-xl" />Freelance
+              </h4>
+              <p className="text-textSecondary">Available</p>
             </div>
           </motion.div>
           
           <motion.div 
-            className="md:w-1/2"
-            variants={fadeIn("left", "tween", 0.3, 1)}
+            className="text-center"
+            variants={fadeIn("up", "tween", 0.4, 1)}
           >
-            <h3 className="text-2xl font-poppins font-semibold mb-4">My Story</h3>
-            <p className="text-textSecondary mb-4">
-              I'm a passionate Full Stack Developer with over 5 years of experience designing and building responsive web applications. My journey into web development started during my university years, and I've been deeply immersed in creating digital solutions ever since.
-            </p>
-            <p className="text-textSecondary mb-6">
-              My approach to development combines technical expertise with creative problem-solving. I specialize in JavaScript technologies and modern frameworks like React, Next.js, and Node.js, with a strong emphasis on writing clean, maintainable code.
-            </p>
-            
-            <div className="grid grid-cols-2 gap-4 mb-6">
-              <div>
-                <h4 className="font-poppins font-semibold mb-1 flex items-center">
-                  <FaUserGraduate className="text-accent mr-2" />Education
-                </h4>
-                <p className="text-textSecondary">Master's in Computer Science</p>
-              </div>
-              <div>
-                <h4 className="font-poppins font-semibold mb-1 flex items-center">
-                  <FaMapMarkerAlt className="text-accent mr-2" />Location
-                </h4>
-                <p className="text-textSecondary">San Francisco, CA</p>
-              </div>
-              <div>
-                <h4 className="font-poppins font-semibold mb-1 flex items-center">
-                  <FaLaptopCode className="text-accent mr-2" />Experience
-                </h4>
-                <p className="text-textSecondary">5+ Years</p>
-              </div>
-              <div>
-                <h4 className="font-poppins font-semibold mb-1 flex items-center">
-                  <FaBriefcase className="text-accent mr-2" />Freelance
-                </h4>
-                <p className="text-textSecondary">Available</p>
-              </div>
-            </div>
-            
             <a 
               href="#contact" 
-              className="bg-accent hover:bg-accent/90 text-white font-poppins py-2 px-6 rounded-full transition-colors inline-flex items-center"
+              className="bg-accent hover:bg-accent/90 text-white font-poppins py-3 px-8 rounded-lg transition-colors inline-flex items-center text-lg"
             >
               <span>Get In Touch</span>
               <FaArrowRight className="ml-2" />
