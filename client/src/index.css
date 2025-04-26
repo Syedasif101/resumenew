@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --background: 15 15 15;
+  --secondary: 18 18 18;
+  --foreground: 255 255 255;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 26 26 26;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 240 3.7% 15.9%;
+  --input: 20 5.9% 90%;
+  --primary: 207 90% 54%;
+  --primary-foreground: 211 100% 99%;
+  --secondary-foreground: 24 9.8% 10%;
+  --accent: 0 163 255;
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-inter antialiased bg-background text-textPrimary;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-[#00A3FF] to-[#00E6FF];
+  }
+
+  .section-transition {
+    @apply transition-all duration-500 ease-in-out;
+  }
+
+  .nav-item {
+    @apply relative;
+  }
+
+  .nav-item::after {
+    content: '';
+    @apply absolute bottom-[-2px] left-0 w-0 h-0.5 bg-accent transition-all duration-300;
+  }
+
+  .nav-item:hover::after {
+    @apply w-full;
+  }
+
+  .nav-item.active::after {
+    @apply w-full;
+  }
+
+  .project-card {
+    @apply transition-all duration-300 ease-in-out;
+  }
+
+  .project-card:hover {
+    @apply transform -translate-y-1 shadow-lg shadow-accent/10;
+  }
+}
+
+@layer utilities {
+  .text-textPrimary {
+    color: rgb(255, 255, 255);
+  }
+
+  .text-textSecondary {
+    color: rgb(204, 204, 204);
+  }
+
+  .bg-background {
+    background-color: rgb(15, 15, 15);
+  }
+
+  .bg-secondary {
+    background-color: rgb(18, 18, 18);
+  }
+
+  .bg-cardBg {
+    background-color: rgb(26, 26, 26);
+  }
+
+  .bg-accent {
+    background-color: rgb(0, 163, 255);
+  }
+
+  .text-accent {
+    color: rgb(0, 163, 255);
+  }
+
+  .border-accent {
+    border-color: rgb(0, 163, 255);
+  }
+}
