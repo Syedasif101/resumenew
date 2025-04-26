@@ -49,11 +49,10 @@ const ContactSection = () => {
           className="text-center mb-16"
           variants={fadeIn("up", "tween", 0.1, 1)}
         >
-          <h2 className="text-3xl md:text-4xl font-poppins font-bold relative inline-block mb-2">
-            Get In Touch
-            <span className="absolute bottom-0 left-0 w-full h-1 bg-accent opacity-70"></span>
+          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-4">
+            Get In <span className="gradient-text">Touch</span>
           </h2>
-          <p className="text-textSecondary mt-4 max-w-2xl mx-auto">Feel free to reach out if you want to collaborate with me, or simply have a chat</p>
+          <p className="text-textSecondary mt-4 max-w-2xl mx-auto text-lg">Feel free to reach out if you want to collaborate with me, or simply have a chat</p>
         </motion.div>
         
         <div className="flex flex-col md:flex-row gap-12">
