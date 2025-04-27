@@ -1,0 +1,57 @@
+Pasted-Syed-Asif-Akhoon-9596283631-Jammu-And-Kashmir-India-linkedin-com-in-syed-asif101-saasif51120-gmail-1745676140255.txt
+Syed Asif Akhoon
+9596283631
+Jammu And Kashmir, India
+linkedin.com/in/syed-asif101/
+saasif51120@gmail.com
+github.com/Syedasif101
+Internship
+Anudip Foundation:
+Feb 2022 – Aug 2022
+Role/title: Full Stack Development Intern
+- Enhance your proficiency in front-end technologies such as HTML, CSS, JavaScript, and modern frameworks.
+- Develop essential soft skills, including teamwork, communication, and problem-solving, within a professional setting.
+- Strong understanding of HTML, CSS, JavaScript, and familiarity with frameworks like React.
+- Ability to create designs that adapt to different screen sizes and devices.
+- Improved coding skills and a deeper understanding of front-end development tools and frameworks.
+- Hands-on experience in developing and deploying web applications, understanding the full development lifecycle.
+Projects
+Feedback App| Frontend Developer
+April 2022 – Sep 2022
+- Feedback application with a web app in ReactJS.
+- Designing and implementing an interactive and user-friendly web application that allows users to add, update, delete
+feedback.
+- Enhanced understanding of ReactJS, including components, props, and state management.
+- Gained experience working with mock REST APIs for simulating server-side operations.
+- Links: GitHub repo
+- Technologies used: ReactJS, HTML5, CSS3.
+Home Automation System
+June 2022 – Sep 2022
+- To design and implement a cost-effective and user-friendly system that enhances the convenience and energy efficiency of
+home automation.
+- Led the development and integration of hardware components, including microcontrollers, connectivity modules, and relays,
+ensuring seamless communication and control.
+- Gained hands-on experience with microcontroller programming and circuit design.
+- Improved understanding of wireless communication protocols like WIFI and Bluetooth.
+- Hardware Used: Microcontroller, Connectivity, Modules, Relays.
+Movies and TV Shows App| Frontend Developer
+Aug 2022 – Oct 2022
+- To develop an engaging and feature-rich web application for exploring movies and TV shows, showcasing
+proficiency in front-end development and API integration.
+- Designed and implemented a responsive user interface using HTML, CSS, and JavaScript.
+- Integrated The Movie Database (TMDb) API to fetch and display real-time movie and TV show data.
+- Enhanced understanding of RESTful APIs and their integration with front-end applications.
+- Technologies Used: HTML, CSS, Vanilla JavaScript.
+Technical Skills
+Languages: C++, Python, JavaScript, HTML, CSS, PHP
+Technologies/Frameworks: React JS, Git, GitHub
+Skills: Data Structures and Algorithms, Problem-Solving, Responsive Web Design
+Education
+Lovely Professional University Punjab (Pursuing)
+Master of Computer Applications — CGPA: 7.142023 – 2025
+Jalandhar, Punjab
+Cluster University Srinagar2019 – 2022
+Bachelors of Computer Applications- SDE CGPA: 8.00Kashmir, India
+Jammu And Kashmir State Board of School Education
+12th with Science — Percentage: 6 2%2017– 2018
+Kashmir, India
