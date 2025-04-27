@@ -60,21 +60,21 @@ const TimelineEntry = ({ title, company, period, description, isRight, delay }: 
 
 const experiences = [
   {
-    title: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    period: "2021 - Present",
-    description: "Led the frontend development team in building a complex SaaS platform. Implemented state management solutions, optimized performance, and mentored junior developers."
+    title: "Java Full Stack Developer",
+    company: "Anudip Foundation",
+    period: "2022 - Present",
+    description: "Led the Full stack development team in building a complex Book Store."
   },
   {
     title: "Full Stack Developer",
     company: "Innovation Labs",
-    period: "2018 - 2021",
+    period: "2019 - 2021",
     description: "Developed and maintained multiple client projects using React, Node.js, and MongoDB. Implemented responsive designs, RESTful APIs, and automated testing."
   },
   {
     title: "Frontend Developer",
     company: "WebSolutions Co.",
-    period: "2016 - 2018",
+    period: "2021 - 2022",
     description: "Built user interfaces for client websites using JavaScript, HTML, and CSS. Collaborated with designers to implement responsive layouts and interactive features."
   }
 ];

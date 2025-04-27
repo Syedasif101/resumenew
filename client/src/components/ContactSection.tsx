@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaChess } from "react-icons/fa";
 import { staggerContainer, fadeIn } from "@/lib/animations";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -70,7 +70,7 @@ const ContactSection = () => {
                   value={formData.name}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 bg-cardBg text-textPrimary border border-gray-700 rounded-lg focus:outline-none focus:border-accent" 
-                  placeholder="John Doe"
+                  placeholder="Syed asif"
                   required
                 />
               </div>
@@ -84,7 +84,7 @@ const ContactSection = () => {
                   value={formData.email}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 bg-cardBg text-textPrimary border border-gray-700 rounded-lg focus:outline-none focus:border-accent" 
-                  placeholder="john@example.com"
+                  placeholder="asif@example.com"
                   required
                 />
               </div>
@@ -112,7 +112,7 @@ const ContactSection = () => {
                   onChange={handleInputChange}
                   rows={5} 
                   className="w-full px-4 py-3 bg-cardBg text-textPrimary border border-gray-700 rounded-lg focus:outline-none focus:border-accent resize-none" 
-                  placeholder="Hello, I would like to talk about..."
+                  placeholder="Hey, I would like to talk about..."
                   required
                 />
               </div>
@@ -140,7 +140,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-poppins font-semibold mb-1">Location</h4>
-                    <p className="text-textSecondary">San Francisco, California, USA</p>
+                    <p className="text-textSecondary">Srinagar, JK</p>
                   </div>
                 </div>
                 
@@ -150,7 +150,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-poppins font-semibold mb-1">Email</h4>
-                    <p className="text-textSecondary">contact@johndoe.com</p>
+                    <p className="text-textSecondary">syed.asif@outlook.in</p>
                   </div>
                 </div>
                 
@@ -160,7 +160,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <h4 className="font-poppins font-semibold mb-1">Phone</h4>
-                    <p className="text-textSecondary">+1 (123) 456-7890</p>
+                    <p className="text-textSecondary"> 919596283631 </p>
                   </div>
                 </div>
               </div>
@@ -168,16 +168,16 @@ const ContactSection = () => {
               <div className="mt-10">
                 <h4 className="font-poppins font-semibold mb-4">Find me on</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="bg-accent/10 hover:bg-accent/20 p-3 rounded-lg text-accent transition-colors">
+                  <a href="https://github.com/Syedasif101" className="bg-accent/10 hover:bg-accent/20 p-3 rounded-lg text-accent transition-colors">
                     <FaGithub />
                   </a>
-                  <a href="#" className="bg-accent/10 hover:bg-accent/20 p-3 rounded-lg text-accent transition-colors">
+                  <a href="https://www.linkedin.com/in/syed-asif101/" className="bg-accent/10 hover:bg-accent/20 p-3 rounded-lg text-accent transition-colors">
                     <FaLinkedin />
                   </a>
-                  <a href="#" className="bg-accent/10 hover:bg-accent/20 p-3 rounded-lg text-accent transition-colors">
-                    <FaTwitter />
+                  <a href="https://www.chess.com/member/syed_73" className="bg-accent/10 hover:bg-accent/20 p-3 rounded-lg text-accent transition-colors">
+                    <FaChess />
                   </a>
-                  <a href="#" className="bg-accent/10 hover:bg-accent/20 p-3 rounded-lg text-accent transition-colors">
+                  <a href="https://www.instagram.com/aasif.io/" className="bg-accent/10 hover:bg-accent/20 p-3 rounded-lg text-accent transition-colors">
                     <FaInstagram />
                   </a>
                 </div>

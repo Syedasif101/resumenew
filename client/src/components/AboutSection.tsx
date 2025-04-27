@@ -28,10 +28,10 @@ const AboutSection = () => {
             variants={fadeIn("up", "tween", 0.2, 1)}
           >
             <p className="text-textSecondary text-xl leading-relaxed mb-8">
-              I'm a passionate <span className="text-accent font-medium">Full Stack Developer</span> with over 5 years of experience designing and building responsive web applications. My journey into web development started during my university years, and I've been deeply immersed in creating digital solutions ever since.
+              I'm a passionate <span className="text-accent font-medium">Full Stack Web Developer</span> with working experience in designing and building responsive web applications. My journey into web development started during my university years, and I've been deeply immersed in creating digital solutions ever since.
             </p>
             <p className="text-textSecondary text-xl leading-relaxed">
-              My approach to development combines technical expertise with creative problem-solving. I specialize in JavaScript technologies and modern frameworks like <span className="text-accent font-medium">React</span>, <span className="text-accent font-medium">Next.js</span>, and <span className="text-accent font-medium">Node.js</span>, with a strong emphasis on writing clean, maintainable code.
+              My approach to development combines technical expertise with creative problem-solving. I specialize in JavaScript technologies and modern frameworks like <span className="text-accent font-medium">React</span>, and <span className="text-accent font-medium">Node.js</span>, with a strong emphasis on writing clean, maintainable code.
             </p>
           </motion.div>
           
@@ -43,21 +43,21 @@ const AboutSection = () => {
               <h4 className="font-poppins font-semibold mb-3 flex items-center text-lg">
                 <FaUserGraduate className="text-accent mr-3 text-xl" />Education
               </h4>
-              <p className="text-textSecondary">Master's in Computer Science</p>
+              <p className="text-textSecondary">Master of Computer Applications</p>
             </div>
             
             <div className="bg-cardBg p-6 rounded-xl shadow-lg border border-gray-800 hover:border-accent/30 transition-all">
               <h4 className="font-poppins font-semibold mb-3 flex items-center text-lg">
                 <FaMapMarkerAlt className="text-accent mr-3 text-xl" />Location
               </h4>
-              <p className="text-textSecondary">San Francisco, CA</p>
+              <p className="text-textSecondary">Srinagar, JK</p>
             </div>
             
             <div className="bg-cardBg p-6 rounded-xl shadow-lg border border-gray-800 hover:border-accent/30 transition-all">
               <h4 className="font-poppins font-semibold mb-3 flex items-center text-lg">
                 <FaLaptopCode className="text-accent mr-3 text-xl" />Experience
               </h4>
-              <p className="text-textSecondary">5+ Years</p>
+              <p className="text-textSecondary">1 Year</p>
             </div>
             
             <div className="bg-cardBg p-6 rounded-xl shadow-lg border border-gray-800 hover:border-accent/30 transition-all">

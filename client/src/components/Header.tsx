@@ -44,7 +44,7 @@ const Header = () => {
         <div>
           <h1 className="text-2xl md:text-3xl font-poppins font-bold">
             <a href="#home" className="gradient-text">
-              Reyaz.
+              aasif.
             </a>
           </h1>
         </div>

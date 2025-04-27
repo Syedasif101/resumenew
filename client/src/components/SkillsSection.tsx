@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import { 
   FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaDocker, 
-  FaCodeBranch, FaMobileAlt, FaDatabase, FaServer 
+  FaCodeBranch, FaMobileAlt, FaDatabase, FaServer, 
+  FaLinux
 } from "react-icons/fa";
-import { SiGraphql } from "react-icons/si";
+import { SiGraphql, SiMysql } from "react-icons/si";
 import { staggerContainer, fadeIn } from "@/lib/animations";
 
 interface SkillCardProps {
@@ -30,7 +31,7 @@ const skills = [
   {
     icon: <FaReact />,
     title: "React",
-    description: "Advanced knowledge of React and its ecosystem."
+    description: "Knowledge of React and its ecosystem."
   },
   {
     icon: <FaJs />,
@@ -53,9 +54,9 @@ const skills = [
     description: "Server-side JavaScript, Express, and API development."
   },
   {
-    icon: <FaDatabase />,
-    title: "MongoDB",
-    description: "Document database design, queries, and aggregations."
+    icon: <FaLinux />,
+    title: "Linux",
+    description: "Knowledge of Linux Operating System"
   },
   {
     icon: <FaServer />,
@@ -63,9 +64,9 @@ const skills = [
     description: "RESTful design principles and best practices."
   },
   {
-    icon: <SiGraphql />,
-    title: "GraphQL",
-    description: "Schema design, resolvers, and Apollo integration."
+    icon: <SiMysql />,
+    title: "MYSQL",
+    description: "Schema design and Database"
   },
   {
     icon: <FaGitAlt />,

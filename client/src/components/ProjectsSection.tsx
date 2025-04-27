@@ -53,27 +53,27 @@ const ProjectCard = ({
 const projects = [
   {
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    title: "E-commerce Platform",
-    description: "A full-featured online shopping platform with cart functionality, user authentication, and payment integration.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+    title: "Cloud Based Disaster Recovery",
+    description: "Cloud-Based Disaster Recovery ensures quick, secure recovery of data and systems through scalable cloud solutions during disasters.",
+    technologies: ["React", "Typescript", "AWS", "MongoDB"],
     demoUrl: "#",
     codeUrl: "#"
   },
   {
     image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80",
-    title: "Task Management App",
-    description: "A collaborative task management tool with real-time updates, drag-and-drop interface, and team collaboration features.",
-    technologies: ["Next.js", "TypeScript", "Firebase", "Tailwind"],
+    title: "Flixx-App",
+    description: "Movie web app that provides details about movies and TV shows, including ratings, summaries, and cast information.",
+    technologies: ["HTML5", "CSS3", "Javascript", "REST API"],
     demoUrl: "#",
-    codeUrl: "#"
+    codeUrl: "https://github.com/Syedasif101/Flixx-app"
   },
   {
     image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
-    title: "Portfolio Website",
-    description: "A modern portfolio website with smooth animations, responsive design, and dark mode toggle.",
-    technologies: ["React", "Framer Motion", "Styled Components"],
+    title: "FeedBack App",
+    description: " Web app allows users to share their opinions and reviews to help improve services or products.",
+    technologies: ["React JS", "Styled Components"],
     demoUrl: "#",
-    codeUrl: "#"
+    codeUrl: "https://github.com/Syedasif101/Feedback-App"
   }
 ];
 
