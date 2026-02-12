@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -11,17 +11,28 @@ import ProjectsSection from "./components/ProjectsSection";
 import ExperienceSection from "./components/ExperienceSection";
 import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
+import Spinner from "./components/ui/spinner";
 
 function App() {
+    const [loading, setLoading] = useState(true);
   useEffect(() => {
     // Smooth scroll behavior for the entire app
     document.documentElement.style.scrollBehavior = "smooth";
 
+    // Simulate loading for 1.5s
+    const timer = setTimeout(() => setLoading(false), 1500);
+
     // Clean up
     return () => {
       document.documentElement.style.scrollBehavior = "auto";
+      clearTimeout(timer);
     };
   }, []);
+
+  if (loading) {
+    // Show spinner while loading
+    return <Spinner />;
+  }
 
   return (
     <QueryClientProvider client={queryClient}>

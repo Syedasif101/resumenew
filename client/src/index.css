@@ -4,8 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ================= ROOT COLORS ================= */
+
 :root {
-  --background: 10 10 10;
+  --background: 10 0;
   --secondary: 15 15 15;
   --foreground: 255 255 255;
   --muted: 60 4.8% 95.9%;
@@ -27,19 +29,50 @@
   --radius: 0.5rem;
 }
 
+/* ================= BASE ================= */
+
 @layer base {
   * {
     @apply border-border;
   }
 
   body {
-    @apply font-inter antialiased bg-background text-textPrimary;
+    @apply font-inter antialiased text-textPrimary;
+
+    /* ⭐ MODERN TECH BACKGROUND */
+    background-color: #020617;
+    background-image:
+      radial-gradient(
+        circle at 20% 30%,
+        rgba(64, 196, 255, 0.15),
+        transparent 40%
+      ),
+      radial-gradient(
+        circle at 80% 70%,
+        rgba(92, 225, 230, 0.12),
+        transparent 40%
+      ),
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+
+    background-size:
+      100% 100%,
+      100% 100%,
+      40px 40px,
+      40px 40px;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-poppins;
   }
 }
+
+/* ================= COMPONENTS ================= */
 
 @layer components {
   .gradient-text {
@@ -76,6 +109,8 @@
   }
 }
 
+/* ================= UTILITIES ================= */
+
 @layer utilities {
   .text-textPrimary {
     color: rgb(255, 255, 255);
@@ -83,10 +118,6 @@
 
   .text-textSecondary {
     color: rgb(180, 180, 180);
-  }
-
-  .bg-background {
-    background-color: rgb(10, 10, 10);
   }
 
   .bg-secondary {

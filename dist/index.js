@@ -31,16 +31,9 @@ import { createServer as createViteServer, createLogger } from "vite";
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import path from "path";
-import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 var vite_config_default = defineConfig({
   plugins: [
-    react(),
-    runtimeErrorOverlay(),
-    ...process.env.NODE_ENV !== "production" && process.env.REPL_ID !== void 0 ? [
-      await import("@replit/vite-plugin-cartographer").then(
-        (m) => m.cartographer()
-      )
-    ] : []
+    react()
   ],
   resolve: {
     alias: {
@@ -164,12 +157,8 @@ app.use((req, res, next) => {
   } else {
     serveStatic(app);
   }
-  const port = 5e3;
-  server.listen({
-    port,
-    host: "0.0.0.0",
-    reusePort: true
-  }, () => {
+  const port = 5001;
+  server.listen(port, "0.0.0.0", () => {
     log(`serving on port ${port}`);
   });
 })();
